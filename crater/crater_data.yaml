@@ -1,0 +1,7 @@
+
+train: /content/drive/MyDrive/crater/craters/train/images
+val: /content/drive/MyDrive/crater/craters/valid/images
+test: /content/drive/MyDrive/crater/craters/test/images
+
+nc: 1  # number of classes
+names: ['class_0']  # class names
