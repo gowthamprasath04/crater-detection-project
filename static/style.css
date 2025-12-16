@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url('/static/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #output { 
+    margin-top: 20px; 
+  }
+  
+  .detection-box { 
+    position: absolute; 
+    border: 2px solid rgb(66, 5, 78); 
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.63);
+  }
+  
+  input[type="file"], button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px; /* Adjust the radius for desired curvature */
+    border: none;
+    background-color: #1c0236bd; /* Violet color */
+    color: white;
+  }
+  
+  button {
+    background-color: #27022e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #670672;
+  }
